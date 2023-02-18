@@ -1,6 +1,11 @@
 import requests
 import pandas as p
 
+'''
+Using Python and the appropriate Python package of your choice, 
+access https://randomuser.me/ api and list the top 100 male users.
+'''
+
 url = 'https://randomuser.me/api/?results=100&gender=male'
 
 #send a get request
